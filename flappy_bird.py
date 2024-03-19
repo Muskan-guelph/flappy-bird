@@ -47,7 +47,7 @@ class Bird(pygame.sprite.pygame.sprite.Sprite):
             if self.rect.bottom < 768:
                 self.rect.y += int(self.vel)
         
-        if game_over:
+        if game_over == False:
             #jump
             if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:
                 self.clicked = True
