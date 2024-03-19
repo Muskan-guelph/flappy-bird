@@ -49,7 +49,9 @@ def reset_game():
     return score
 
 class Bird(pygame.sprite.pygame.sprite.Sprite):
+   
     def __init__(self, x, y):
+        
         pygame.sprite.Sprite.__init__(self)
         self.images = []
         self.index = 0
@@ -122,6 +124,7 @@ class Pipe(pygame.sprite.Sprite):
             
             
 class Button():
+    
     def __init__(self, x, y, image):
         self.image = image
         self.rect = self.image.get_rect()
@@ -177,6 +180,7 @@ while run:
             and bird_group.sprites()[0].rect.right < pipe_group.sprites()[0].rect.right\
             and pass_pipe == False:
                 pass_pipe = True
+                
         if pass_pipe == True:
             if bird_group.sprites()[0].rect.left > pipe_group.sprites()[0].rect.right:
                 score += 1
