@@ -10,7 +10,7 @@ This project is a simple, yet entertaining clone of the popular Flappy Bird game
 -   Endless gameplay: The game continues until the player collides with a pipe or falls to the ground.
 -   Score tracking: Points are awarded for each set of pipes the bird successfully navigates.
 -   Simple controls: The bird's flight is controlled with simple mouse clicks.
--   Visual and audio feedback: The game includes basic graphics and sound effects to enhance the player experience.
+-   Visual: The game includes basic graphics to enhance the player experience.
 
 ## Installation
 
