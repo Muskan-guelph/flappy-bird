@@ -24,16 +24,19 @@ Before you can run the game, you need to have Python and pygame installed on you
    ```````` 
    pip3 install pygame
    ````````
+   ```````` 
+   python3 install pygame
+   ````````
 
 ### Running the Game
 
 1.  Clone the repository or download the source code.
 2.  Navigate to the project directory.
 3.  Run the game with Python:
-
-   ```````` 
-   python3 install pygame
-   ````````
+    ````````
+    python flappy_bird.py
+    ```````` 
+   
 
 ## Controls
 
