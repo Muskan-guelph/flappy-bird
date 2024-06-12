@@ -43,6 +43,9 @@ Before you can run the game, you need to have Python and pygame installed on you
 -   **Start the game:** Click the mouse button to start the game.
 -   **Fly up:** Click the mouse button to make the bird fly up. Avoid clicking too much to prevent flying too high.
 
+## Contact
+For any questions or further information, please contact [Muskan Manwani](mailto:mmanwani@uoguelph.ca).
+
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details
