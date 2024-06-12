@@ -5,6 +5,8 @@
 
 This project is a simple, yet entertaining clone of the popular Flappy Bird game, developed in Python using the pygame library. The player controls a bird, attempting to fly between columns of green pipes without hitting them, in an endless level. The game increases in difficulty as the player progresses, making for a challenging and engaging experience.
 
+![Game Preview](img/Game Preview.webp)
+
 ## Features
 
 -   Endless gameplay: The game continues until the player collides with a pipe or falls to the ground.
